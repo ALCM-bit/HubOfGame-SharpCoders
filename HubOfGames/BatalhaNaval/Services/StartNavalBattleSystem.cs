@@ -18,6 +18,7 @@ namespace HubOfGames.BatalhaNaval.Services
 
         public static void StartGame()
         {
+            List<Player> list = JsonReadWrite.JsonReader();
             Player player1 = PlayersRepository.player1;
             Player player2 = PlayersRepository.player2;
             Board board = new Board(player1, player2);
@@ -34,7 +35,9 @@ namespace HubOfGames.BatalhaNaval.Services
                     if (hiddenShips == 5)
                     {
                         Console.WriteLine($"Vitória de: {player1.Name}");
-                        player1.Points++;
+                        var index = list.FindIndex(x => x.Name == player1.Name);
+                        list[index].Points++;
+                        JsonReadWrite.JsonWriter(list);
                     }
                 }
                 else
@@ -46,7 +49,9 @@ namespace HubOfGames.BatalhaNaval.Services
                     if (hiddenShips == 5)
                     {
                         Console.WriteLine($"Vitória de: {player2.Name}");
-                        player2.Points++;
+                        var index = list.FindIndex(x => x.Name == player2.Name);
+                        list[index].Points++;
+                        JsonReadWrite.JsonWriter(list);
                     }
                 }
             }
