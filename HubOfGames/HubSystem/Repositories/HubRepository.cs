@@ -1,4 +1,5 @@
-﻿using HubOfGames.HubSystem.Views;
+﻿using HubOfGames.BatalhaNaval.Services;
+using HubOfGames.HubSystem.Views;
 using HubOfGames.JogoDaVelha;
 using System;
 using System.Collections.Generic;
@@ -48,7 +49,7 @@ namespace HubOfGames.HubSystem.Repositories
                         JogoDaVelhaStart.Start();
                         break;
                     case 2:
-                        
+                        StartNavalBattleSystem.StartGame();
                         break;
                     case 3:
                         return;
