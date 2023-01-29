@@ -83,8 +83,8 @@ namespace HubOfGames.JogoDaVelha.JogoDaVelha.Models
                 if (piece == 'X')
                 {
                     Console.WriteLine($"Vitória de: {player1.Name}");
-                    player1.Points++;
-                    list.Add(player1);
+                    var index = list.FindIndex(x => x.Name == player1.Name);
+                    list[index].Points++;
                     JsonReadWrite.JsonWriter(list);
                     Console.ReadKey();
                     return 1;
@@ -93,8 +93,8 @@ namespace HubOfGames.JogoDaVelha.JogoDaVelha.Models
                 else
                 {
                     Console.WriteLine($"Vitória de: {player2.Name}");
-                    player2.Points++;
-                    list.Add(player2);
+                    var index = list.FindIndex(x => x.Name == player2.Name);
+                    list[index].Points++;
                     JsonReadWrite.JsonWriter(list);
                     Console.ReadKey();
                     return 1;
