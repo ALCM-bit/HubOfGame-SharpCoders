@@ -43,7 +43,13 @@ namespace HubOfGames.HubSystem.Repositories
             List<Player> list = new List<Player>();
             list = HubOfGames.JsonControl.JsonReadWrite.JsonReader();
             list.Sort((x, y) => y.Points.CompareTo(x.Points));
-            list.ForEach(playerInList => Console.WriteLine($"{playerInList.Name}: {playerInList.Points}\n----------\n"));
+            //list.ForEach(playerInList => Console.WriteLine($"{playerInList.Name}: {playerInList.Points}\n----------\n"));
+            int contRanking = 0;
+            foreach (var item in list)
+            {
+                contRanking++;
+                Console.WriteLine($"{contRanking} - {item.Name}: {item.Points}\n----------\n");
+            }
             Console.WriteLine("Aperte ENTER para sair");
             Console.ReadKey();
         }
