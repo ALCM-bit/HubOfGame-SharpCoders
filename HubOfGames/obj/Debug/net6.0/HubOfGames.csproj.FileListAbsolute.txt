@@ -1,0 +1,15 @@
+C:\Users\felip\Documents\C#-SharpCode\Desafios\HubOfGames\HubOfGames\bin\Debug\net6.0\HubOfGames.exe
+C:\Users\felip\Documents\C#-SharpCode\Desafios\HubOfGames\HubOfGames\bin\Debug\net6.0\HubOfGames.deps.json
+C:\Users\felip\Documents\C#-SharpCode\Desafios\HubOfGames\HubOfGames\bin\Debug\net6.0\HubOfGames.runtimeconfig.json
+C:\Users\felip\Documents\C#-SharpCode\Desafios\HubOfGames\HubOfGames\bin\Debug\net6.0\HubOfGames.dll
+C:\Users\felip\Documents\C#-SharpCode\Desafios\HubOfGames\HubOfGames\bin\Debug\net6.0\HubOfGames.pdb
+C:\Users\felip\Documents\C#-SharpCode\Desafios\HubOfGames\HubOfGames\obj\Debug\net6.0\HubOfGames.csproj.AssemblyReference.cache
+C:\Users\felip\Documents\C#-SharpCode\Desafios\HubOfGames\HubOfGames\obj\Debug\net6.0\HubOfGames.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\Documents\C#-SharpCode\Desafios\HubOfGames\HubOfGames\obj\Debug\net6.0\HubOfGames.AssemblyInfoInputs.cache
+C:\Users\felip\Documents\C#-SharpCode\Desafios\HubOfGames\HubOfGames\obj\Debug\net6.0\HubOfGames.AssemblyInfo.cs
+C:\Users\felip\Documents\C#-SharpCode\Desafios\HubOfGames\HubOfGames\obj\Debug\net6.0\HubOfGames.csproj.CoreCompileInputs.cache
+C:\Users\felip\Documents\C#-SharpCode\Desafios\HubOfGames\HubOfGames\obj\Debug\net6.0\HubOfGames.dll
+C:\Users\felip\Documents\C#-SharpCode\Desafios\HubOfGames\HubOfGames\obj\Debug\net6.0\refint\HubOfGames.dll
+C:\Users\felip\Documents\C#-SharpCode\Desafios\HubOfGames\HubOfGames\obj\Debug\net6.0\HubOfGames.pdb
+C:\Users\felip\Documents\C#-SharpCode\Desafios\HubOfGames\HubOfGames\obj\Debug\net6.0\HubOfGames.genruntimeconfig.cache
+C:\Users\felip\Documents\C#-SharpCode\Desafios\HubOfGames\HubOfGames\obj\Debug\net6.0\ref\HubOfGames.dll
